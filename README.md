@@ -7,6 +7,15 @@ As a group our team decided an in depth analysis of the housing market is a very
 # Machine Learning
 Our exploring initially began in the Freddie Mac housing price database.  There was a lot of good information but due to project scope and timeframe we ultimatley decided to utilize the Quandl Zillow API.  
 
+# Sentiment Analysis
+...
+
+
+# Housing Survey Analysis
+...
+
+# Amazon Lex Chatbot
+...
 
 
 # Conclusion
