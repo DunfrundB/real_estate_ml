@@ -8,7 +8,7 @@ As a group our team decided an in depth analysis of the housing market is a very
 Our exploring initially began in the Freddie Mac housing price database.  The goal was to get enough data on many different regions across the US in order to correctly train our models.  Freddie Mac had more than enough information than needed.  The data was so intricate they even had columns associated to the mortgage details on homes.  However we ran into issues loading the dataset into jupyterlab and GitHub.  The data set was too large therefore we had to find something else.  This is what ultimatley led us to the Quandl Zillow API.  Zillow had everything we needed, historical housing prices, regions, different size houses.  This simple API tool let us create a dataset for the specific regions we wanted to take a look at.  Our best bet for training models was selecting a dataframe that includes data from the top 30 regions in the US.  
 
 # Sentiment Analysis
-...
+During our research we decided to incorporate sentiment analysis in the media to see if there is any significant change in the housing market sentiment. We ideally wanted to compare the last 2 years of sentiment to the sentiment of the 2 years prior to the 2008 housing crisis. Due to limitations with data availability, we were only able to analyze the last year and half of news articles. We believed that there would be a change in housing sentiment from the media, based on the current market conditions. In order to test this hypothesis, TextBlob and VADER sentiment analysis were utilized. Ultimately, we determined that the overall sentiment through the media was neutral, with a slight lean towards a negative sentiment. This didn’t match with our initial hypothesis.
 
 
 # Housing Survey Analysis
